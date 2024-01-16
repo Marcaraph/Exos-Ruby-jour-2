@@ -6,5 +6,8 @@ for a in 0..emails.size
         numero_email = "0#{numero_email}"
     end    
     emails [a] = "jean.dupont.#{numero_email}@email.fr"
-    puts "#{emails [a]}"
+
+    if numero_email.to_i.even?
+        puts "#{emails [a]}"
+    end    
 end 
