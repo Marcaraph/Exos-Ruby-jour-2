@@ -8,7 +8,5 @@ while !(1..25).include?(number)
 end
 puts "Voici la pyramide :"
 number.times do |i|
-    space = " " * (number - i - 1)
-    hash = "#" * (i + 1)
-    puts hash + space
+    puts "#" * (i + 1)
 end
