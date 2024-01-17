@@ -1,6 +1,6 @@
 emails = Array.new(50)
 
-for a in 0..emails.size
+for a in 0...emails.size
     numero_email = a + 1
     if a < 9
         numero_email = "0#{numero_email}"
